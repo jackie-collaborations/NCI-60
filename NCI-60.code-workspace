@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "NCI-60",
+			"path": "."
+		},
+		{
+			"name": "raw",
+			"path": "../../NCI_screen/nci_screen_csv/raw"
+		},
+		{
+			"name": "expl_data_viz",
+			"path": "../../NCI_screen/nci_screen_csv/expl_data_viz"
+		}
+	],
+	"settings": {}
+}
