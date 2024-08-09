@@ -1,0 +1,26 @@
+{
+    "assay_type": "vitro",
+    "chem_settings": {
+        "desalt": true,
+        "fragment_filter": "carbon_count",
+        "neutralize_charge": true
+    },
+    "drop_na_units": false,
+    "format_settings": {
+        "append_columns": [
+            "smiles",
+            "mol",
+            "inchi_key",
+            "mw"
+        ],
+        "duplicate_compounds": "average",
+        "remove_header_chars": ".",
+        "remove_na_targets": true
+    },
+    "input_units": "nlog",
+    "output_units": "-log(M)",
+    "structure_col": "smiles",
+    "structure_type": "smiles",
+    "target_col": "gi50_zscore",
+    "units_col": "gi50_zscore"
+}
